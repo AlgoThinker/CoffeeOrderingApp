@@ -1,0 +1,48 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Just Java</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="person_name">Name</string>
+
+    <!-- Text for Topping header  -->
+    <string name="Toppings">Toppings</string>
+
+    <string name="whipped_cream">Whipped Cream</string>
+
+    <string name="chocolate">Chocolate</string>
+
+    <string name="quantity">Quantity</string>
+
+    <string name="minus_sign_button">-</string>
+
+    <string name="intial_quantity_value">1</string>
+
+    <string name="plus_sign_button">+</string>
+
+    <string name="order_summary">Order Summary</string>
+
+    <string name="order_button">ORDER</string>
+
+    <!--
+    Name for the order summary.It will be shown in the format of "Name: Amy" where Amy is the user's name.
+    [CHAR LIMIT = NONE]
+    -->
+    <string name="summary_message_name">Name : <xliff:g id="name" example="Amy">%s</xliff:g>
+    </string>
+
+    <string name="summary_message_whipped_cream">Add Whipped Cream ? <xliff:g id="addWhippedCream" example="true">%b</xliff:g>
+    </string>
+
+    <string name="summary_message_chocolate">Add Chocolate ? <xliff:g id="addChocolate" example="true">%b</xliff:g>
+    </string>
+
+    <string name="summary_message_quantity">Quantity <xliff:g id="summary_quantity" example="3">%d</xliff:g>
+    </string>
+
+    <string name="summary_message_total">Total <xliff:g id="summary_total" example="$7">%s</xliff:g>
+    </string>
+
+    <string name="summary_message_Thankyou">Thank you !</string>
+
+</resources>
